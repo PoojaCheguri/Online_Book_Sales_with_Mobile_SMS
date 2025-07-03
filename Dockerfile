@@ -1,7 +1,7 @@
-# Use Nginx as base image
+# Use Nginx as the base image
 FROM nginx:alpine
 
-# Copy website files to Nginx default public folder
+# Copy your project files into the container
 COPY . /usr/share/nginx/html
 
 # Expose port 80
