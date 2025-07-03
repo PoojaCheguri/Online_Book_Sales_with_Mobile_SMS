@@ -26,4 +26,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: yourusername/book-sales-app:latest
+        tags: pooja9713/book-sales-app:latest
