@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Sales with SMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <h1>📚 BookStore with SMS Alerts</h1>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h2>Discover Your Next Favorite Book</h2>
+        <p>Get instant SMS alerts when your requested books arrive!</p>
+    </header>
+
+    <section class="books-section">
+        <h3>Available Books</h3>
+        <div class="books-container" id="booksContainer">
+            <!-- Books will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <section class="request-section">
+        <h3>Request a Book & Get SMS Notification</h3>
+        <form id="requestForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" id="mobile" placeholder="Mobile Number" required>
+            <input type="text" id="book" placeholder="Book Title" required>
+            <button type="submit">Request Book</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 BookStore | Powered by SMS Notifications
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
